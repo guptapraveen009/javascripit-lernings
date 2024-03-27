@@ -19,7 +19,7 @@ for(let i=0;i<Object.keys(marks).length;i++){
 
 //question no=3//
 let b=20;
-let i=prompt("enter the number");
+let i=20;
 while(i!=b){
   
     }
