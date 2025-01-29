@@ -1,0 +1,52 @@
+
+.msgBox{
+    max-width: 100px;
+    background-color: bisque;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 8px;
+}
+.msgUser{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.msgTxt{
+    color: gray;
+    font-size: 12px;
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-word;
+}
+.msgBoxRight{
+    margin-left: auto;
+}
+.msgBoxRight .msgUser{
+    color: salmon;
+}
+
+
+
+/*
+import "./inmsg.css";
+
+const InboxMsg = (props) => {
+  const { text, userName, isBot } = props;
+
+  return (
+    <div className={`msgBox ${isBot ? 'msgBoxLeft' : 'msgBoxRight'}`}>
+      <p className="msgUser">
+        <span className="msgName">{userName}</span>
+      </p>
+      <p className="msgTxt">{text}</p>
+    </div>
+  );
+};
+
+export default InboxMsg;
+
+*/
